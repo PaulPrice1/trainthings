@@ -1,0 +1,3 @@
+PILLOW
+numpy
+pygame
