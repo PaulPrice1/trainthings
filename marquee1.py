@@ -2,7 +2,7 @@ import http.client, urllib.request, urllib.parse, urllib.error, base64,json,pyga
 from pygame.locals import *
 pygame.init()
 screen=pygame.display.set_mode((200,300))
-Font=pygame.font.Font("separate\\freesansbold.ttf",16)
+Font=pygame.font.Font("freesansbold.ttf",16)
 text=Font.render("Test",True,tuple(255 for i in range(3)),tuple(0 for i in range(3)))
 colors={'OR':(255,128,0), 'RD':(255,0,0), 'BL':(0,0,255), 'GR':(0,255,0), 'SV':(255 for i in range(3)), 'YL':(255,255,0),"No":tuple(128 for i in range(3)),None:tuple(128 for i in range(3))}
 headers = {
